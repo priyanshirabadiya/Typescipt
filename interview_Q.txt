@@ -1,0 +1,21 @@
+what is enum?
+An enum, or enumeration, is a data type that represents a set of named constants. 
+Enums are used to represent a fixed set of values, such as the days of the week or the colors of the rainbow. 
+
+what is tuple?
+In JavaScript, arrays consist of values of the same type, but sometimes we need to store a collection of values of different types in a single variable. 
+
+
+what is the difference between any and unknown in typescript?
+let a :any;
+let b :unknown;
+a.whatever();
+b.whatever(); // cause an error
+In TypeScript, "any" allows a variable to hold any type of value without type checking, essentially disabling type safety, while "unknown" represents a value of unknown type but forces you to explicitly narrow down its type before performing any operations on it, making it a much more type-safe alternative to "any" when you need to handle potentially unknown data; essentially, "any" says "assume it can do anything" while "unknown" says "check what it is before using it.
+
+
+What are TypeScript Interfaces?
+TypeScript interfaces define the structure of objects by specifying property types and method signatures, ensuring consistent shapes and enhancing code clarity.
+Allow for optional and read-only properties for flexibility and immutability.
+Enable interface inheritance to create reusable and extendable object structures.
+

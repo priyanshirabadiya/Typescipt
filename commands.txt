@@ -1,0 +1,25 @@
+1.first check for npm version
+=
+PS D:\Typescript> npm -v
+10.9.2
+
+2.download typescript 
+PS D:\Typescript> npm install -g typescript
+added 1 package in 4s
+
+3.check version 
+PS D:\Typescript> tsc -v
+Version 5.7.3
+
+4. compile typescript file and than run javascript file
+PS D:\Typescript> tsc p1.ts
+PS D:\Typescript> node p1.js
+ans : sdfhkshdfkj
+
+5. install ts-node globally so that you can run TypeScript files directly from the command line.
+PS D:\Typescript> npm install -g ts-node
+added 20 packages in 4s
+
+6. run directly through run code button 
+PS D:\Typescript> ts-node "d:\Typescript\p1.ts"
+sdfhkshdfkj
