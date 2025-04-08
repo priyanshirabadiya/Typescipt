@@ -73,6 +73,7 @@
 // arr.sort((a, b) => a - b);
 // console.log(arr);
 
+
 // const arr: number[] = [1, 2, 3, 2, 1];
 // const index1: number = arr.lastIndexOf(2, 4);
 // console.log(index1);
