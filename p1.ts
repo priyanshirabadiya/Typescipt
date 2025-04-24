@@ -120,7 +120,7 @@
 // myFun(arr);
 
 
-let val: unknown;
+// let val: unknown;
 // val = "75742sdfsdf";
 // console.log(typeof val);
 // console.log(val); 
