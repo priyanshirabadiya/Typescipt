@@ -106,5 +106,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // console.log(Num2.toString(4));
 // import {addition} from './add';
 // console.log(addition(10,20));
-var add_1 = require("./add");
-console.log((0, add_1.addition)(10, 20)); // Should print 30
+// var add_1 = require("./add");
+// console.log((0, add_1.addition)(10, 20)); // Should print 30
+
+
+
