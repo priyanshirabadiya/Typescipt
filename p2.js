@@ -108,6 +108,3 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // console.log(addition(10,20));
 // var add_1 = require("./add");
 // console.log((0, add_1.addition)(10, 20)); // Should print 30
-
-
-
