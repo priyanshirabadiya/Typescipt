@@ -157,3 +157,14 @@
 // console.log(`Sum: ${sum}`);
 // console.log(`Difference: ${difference}`);
 
+
+// Define a function that takes a string as input
+function greet(name: string): string {
+    return `Hello, ${name}!`;
+  }
+  
+  // Call the function and store the result
+  const message: string = greet("World");
+  
+  // Print the message to the console
+  console.log(message);

@@ -1,6 +1,6 @@
-"use strict";
+// "use strict";
 // functionas in typescript
-Object.defineProperty(exports, "__esModule", { value: true });
+// Object.defineProperty(exports, "__esModule", { value: true });
 // function addtwo(a:number , b:number):number{
 //     return a + b;
 // }
@@ -108,3 +108,4 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // console.log(addition(10,20));
 // var add_1 = require("./add");
 // console.log((0, add_1.addition)(10, 20)); // Should print 30
+
