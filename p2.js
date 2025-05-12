@@ -109,3 +109,7 @@
 // var add_1 = require("./add");
 // console.log((0, add_1.addition)(10, 20)); // Should print 30
 
+
+let myString;
+myString = "Hello from ts";
+console.log(myString);
