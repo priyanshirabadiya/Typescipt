@@ -6,12 +6,12 @@
 // myString = 'Hello from ts';
 // console.log(myString);
 
-let num1:number = 2589.30;
-let val:string = num1.toExponential();
-console.log(typeof num1);
+// let num1:number = 2589.30;
+// let val:string = num1.toExponential();
+// console.log(typeof num1);
 
 // let variable: null = null;
-// // variable = null;
+// variable = null;
 
 // // Returns object
 // console.log(typeof variable);
@@ -34,17 +34,17 @@ console.log(typeof num1);
 
 
 
-// interface User{
-//     username : string,
-//     email : string
-// }
+interface User{
+    username : string,
+    email : string,
+}
 
-// const newUser = {
-//     username : "priyanshi",
-//     rno : 12
-// }
+const newUser = {
+    username : "priyanshi",
+    rno : 12
+}
 
-// console.log(`${newUser.username} rno is ${newUser.rno}`);
+console.log(`${newUser.username} rno is ${newUser.rno}`);
 
 
 
