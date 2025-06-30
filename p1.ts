@@ -34,17 +34,17 @@
 
 
 
-interface User{
-    username : string,
-    email : string,
-}
+// interface User{
+//     username : string,
+//     email : string,
+// }
 
-const newUser = {
-    username : "priyanshi",
-    rno : 12
-}
+// const newUser = {
+//     username : "priyanshi",
+//     rno : 12
+// }
 
-console.log(`${newUser.username} rno is ${newUser.rno}`);
+// console.log(`${newUser.username} rno is ${newUser.rno}`);
 
 
 
