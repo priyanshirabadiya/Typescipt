@@ -9,7 +9,7 @@
 // Any , Unknown , Never, Void
 // Enums
 
-// unknown 
+// unknown
 // Use **any** when you want no type checking — but it's risky.
 // Use **unknown** when the type is dynamic, but you still want safety.
 // unknown is the right choice — especially when working with dynamic input such as JSON from an API, user input, or a third-party library.
@@ -32,7 +32,6 @@
 // handleInput(42);
 // handleInput(true); // "Unknown input type."
 
-
 // never = it means it will never returns anything like in this it will infinitly print but never return
 // any thing  -- in short this function will never return any thing everrr
 // function abcd() : never {
@@ -42,8 +41,45 @@
 // }
 // abcd()
 
+// number - function that will return number
+
+// function abc() : number {
+//     return 12;
+// }
+// console.log(abc());
+
+// void : means this function will not return anything
+// function abc(): void {
+//   console.log("hello");
+// }
+
+// abc();
+
+// Enums
+
+// let upDirection = "Up";
+// let DownDirection = "Down";
+// let LEFTDirection = "LEFT";
+// let RIGHTDirection = "RIGHT";
+
+// now we can group this all
+
+// enum Direction {
+//   upDirection = "UP",
+//   DownDirection = "Down",
+//   LEFTDirection = "LEFT",
+//   RIGHTDirection = "RIGHT",
+// }
+
+// console.log(Direction.DownDirection);
 
 
+// enum MousePosition {
+//     x = 0,
+//     y = 0
+// }
+//  MousePosition.x  // OR
+//  MousePosition.y 
 
 // let arr: [number, string] = [1, 2, 3, 4, "harsh"];
 
