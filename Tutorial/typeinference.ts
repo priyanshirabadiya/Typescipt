@@ -201,16 +201,16 @@
 
 
 
-type A = { name: string };
-type B = { age: number };
-type d = { gender: number };
+// type A = { name: string };
+// type B = { age: number };
+// type d = { gender: number };
 
-type C = A & B & d;  // C = { name: string; age: number }
+// type C = A & B & d;  // C = { name: string; age: number }
 
-const person: C = {
-  name: "Alice",
-  age: 30,
-  gender : 1
-};
+// const person: C = {
+//   name: "Alice",
+//   age: 30,
+//   gender : 1
+// };
 
-console.log(person);
+// console.log(person);
