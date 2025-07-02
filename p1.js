@@ -8,7 +8,7 @@
 // let val:string = num1.toExponential();
 // console.log(typeof num1);
 // let variable: null = null;
-// // variable = null;
+// variable = null;
 // // Returns object
 // console.log(typeof variable);
 // // True
@@ -23,7 +23,7 @@
 // console.log(null === undefined);
 // interface User{
 //     username : string,
-//     email : string
+//     email : string,
 // }
 // const newUser = {
 //     username : "priyanshi",
@@ -80,7 +80,7 @@
 //     }
 // }
 // myFun(arr);
-var val;
+// let val: unknown;
 // val = "75742sdfsdf";
 // console.log(typeof val);
 // console.log(val); 
