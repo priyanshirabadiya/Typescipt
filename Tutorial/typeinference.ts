@@ -20,3 +20,45 @@
 // console.log(abcd(121));
 // console.log(abcd(121.12));
 // console.log(abcd("Hello"));
+
+
+// intersection 
+
+// sign &
+
+// let a:number
+
+
+
+// type Classment = {
+//     section : string
+// }
+
+// type Student = {
+//     name : string
+// }
+
+// type classsmentstud = Classment & Student;
+
+// let ayu:classsmentstud = {
+//     name : "harsh", 
+//     section : "sdfsdf"
+// }
+
+
+// type in ts
+
+// primitive types
+
+// type stringtype = {
+//     sname : string 
+// }
+
+// let User:stringtype = {
+//     sname : "sdfsdf"
+// }
+
+// console.log(User);
+
+
+

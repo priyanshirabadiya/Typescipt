@@ -1,3 +1,5 @@
+// tsc --watch  // for auto file changes in js file 
+
 // var a = 12;
 
 // types
